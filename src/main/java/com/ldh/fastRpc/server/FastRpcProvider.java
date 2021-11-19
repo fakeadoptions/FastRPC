@@ -1,5 +1,7 @@
 package com.ldh.fastRpc.server;
 
+import java.net.UnknownHostException;
+
 /**
  * @program: FastRPC
  * @description: 服务提供方通过该接口发布服务
@@ -8,6 +10,6 @@ package com.ldh.fastRpc.server;
  */
 public interface FastRpcProvider {
     
-
+    boolean publishService(Class serviceInterface,Class serviceInterfaceImpl,String fullyQualifiedName);
     
 }

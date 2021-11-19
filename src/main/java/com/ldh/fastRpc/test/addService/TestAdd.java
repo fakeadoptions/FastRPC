@@ -1,4 +1,4 @@
-package com.test.addService;
+package com.ldh.fastRpc.test.addService;
 
 /**
  * @program: FastRPC

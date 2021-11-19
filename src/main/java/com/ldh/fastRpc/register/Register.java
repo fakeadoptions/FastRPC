@@ -6,10 +6,11 @@ package com.ldh.fastRpc.register;
  * @author: Donghui Li
  * @create: 2021-11-15 10:29
  */
+
 public interface Register {
 
     boolean registerService(ServiceMeta serviceMeta);
 
-    ServiceMeta getService();
+    ServiceMeta getService(String fullyQualifiedName);
 
 }

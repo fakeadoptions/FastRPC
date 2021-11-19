@@ -1,6 +1,6 @@
-package com.test.addService.impl;
+package com.ldh.fastRpc.test.addService.impl;
 
-import com.test.addService.TestAdd;
+import com.ldh.fastRpc.test.addService.TestAdd;
 
 /**
  * @program: FastRPC
